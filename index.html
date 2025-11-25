@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body{
+            background-color: #ffffff;
+            box-shadow: 0 4px 20px rgba(0, 0, 250, 0.6);
+            border-radius: 12px;
+            padding: 30px;
+        }
+        p{
+            color: #0A2A43;
+            font-size: large;
+            font-weight: 700;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .form{
+            border: 1px solid #e0e0e0;
+            padding: 12px;
+            border-radius: 8px;
+            outline-color: #1A73E8;
+            display: flex;
+            font-size: 16px;
+            background-color: #b7c8df7c;
+            color: #0A2A43;
+            justify-content: center;
+            align-items: center;
+        }
+        .submit-btn{
+            border: 0cap;
+            border-radius: 5px;
+            background-color: #0A2A43;
+            color: #ffffff;
+            padding: 12px;
+            border: none;
+            border: 8px;
+            align-items: center;  
+            font-weight: 600;
+            justify-content: center;  
+            display: flex;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .reset-btn{
+            cursor: pointer;
+            transition: 0.3s;
+            border: 0cap;
+            border-radius: 5px;
+            background-color:  #0A2A43;
+            color: #ffffff;
+            padding: 12px;
+            align-items: center;    
+            font-weight: 600;
+            justify-content: center;
+            padding: auto;
+            display: flex;
+        }
+        button:hover {
+           background-color: #1A73E8; 
+        }
+        a {
+            text-decoration: none;
+            color: #1A73E8;
+        }
+        a:hover {
+        text-decoration: underline;
+        }
+
+        input[type="email"], input[type="password"] {
+            border-radius: 10px;
+            border: 3px solid #0A2A43;
+            padding: 10px;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+   <p> SIGN IN PAGE </p>
+    <section class="form">
+        <form action="submit" method="post">
+        <label for="Email">Enter Email:</label>
+            <br>
+        <input type="email" name="email" placeholder="Enter Email" id="Email" required="true">
+            <br>
+            <br>
+        <label for="password">Enter Password:</label>
+            <br>
+        <input type="password" name="password" placeholder="Enter Password" id="password" required="true">
+            <br>
+            <span style="color: black;"> Forgot Password? <a href="" rel="
+            reset password page">click here</a></span>
+            <br>
+            <br>
+        <button type="submit" class="submit-btn">SUBMIT</button>
+            <br>
+        <button type="reset" class="reset-btn">CLEAR INPUT</button>
+        </form>
+    </section>
+</body>
+</html>
